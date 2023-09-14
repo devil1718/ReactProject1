@@ -1,3 +1,4 @@
+ 
 .App {
   text-align: center;
 }
@@ -35,4 +36,125 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: #2c3e50;
+}
+
+.nova{
+transition: all 0.5s;  
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  background-color:#1abc9c ;
+}
+
+ 
+.socialList {
+  color: white;
+}
+.socialList i {
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.container-fluid {
+  background-color: #2c3e50;
+}
+.same {
+  width: 33%;
+}
+.foter {
+  background-color: #1a2a3a;
+}
+.home {
+  background-color: #1abc9c;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.after {
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+.fa-star {
+  color: white;
+}
+.hambozo {
+  color: #2c3e50;
+}
+.hamboza {
+  background-color: #2c3e50;
+}
+.active {
+  background-color: #1abc9c;
+}
+.Portfolio {
+  height: 100vh;
+  margin-top:7% ;
+  margin-bottom: 4%;
+}
+
+.item-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9ce6;
+  top: 0%;
+  transition: 0.8s;
+  cursor: pointer;
+  opacity: 0;
+}
+.item:hover .item-layer {
+  opacity: 1;
+}
+
+.fade {
+  position: fixed;
+  background-color: rgba(13, 110, 253, 0.3);
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  top: 0%;
+  display: none;
+}
+
+.modal-content {
+  background-color: transparent !important  ;
+}
+
+.contact {
+  height: 100vh;
+  margin-top: 10%;
+}
+.btn-info {
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+
+.a7a label{
+  position: absolute;
+  top: -5px;
+   
+  z-index: -222;
+  color: green;
+  transition: all 0.5s ease-in-out;
+}
+.a7a {
+  position: relative;
+  
+}
+:root{
+  --top:-30px;
+}
+.top{
+  top: -30px !important;
 }
